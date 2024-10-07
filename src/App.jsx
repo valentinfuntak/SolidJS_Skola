@@ -6,13 +6,16 @@ import Login from './login';
 import Flow from './flow';
 import Menu from './menu';
 import Dynamo from './Dynamo';
+import Events from './events';
+import Styles from './styles';
+import Refs from './Refs';
 
 {/*Komentar*/}
 
 function App() {
   return (
     <>
-    <div class={styles.App}>Dobar dan, svijete!</div>
+    {/*<div class={styles.App}>Dobar dan, svijete!</div>
     <div>Test</div>
     <Component/>
     <Brojac/>
@@ -20,7 +23,10 @@ function App() {
     <Login/>
     <Flow/>
     <Menu/>
-    <Dynamo/>
+    <Dynamo/>*/}
+    <Events/>
+    <Styles/>
+    <Refs/>
     </>
   );
 }
