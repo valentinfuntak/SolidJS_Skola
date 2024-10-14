@@ -9,13 +9,21 @@ import Dynamo from './Dynamo';
 import Events from './events';
 import Styles from './styles';
 import Refs from './Refs';
+import Spreads from './Spreads';
+import Pwp from './pwp';
+import Childern from './childern';
 
 {/*Komentar*/}
 
 function App() {
   return (
     <>
-    {/*<div class={styles.App}>Dobar dan, svijete!</div>
+    <div class={styles.App}>Dobar dan, svijete!</div>
+    <Childern/>
+
+    {/*
+    <Spreads/>
+    <Pwp/>
     <div>Test</div>
     <Component/>
     <Brojac/>
@@ -23,10 +31,10 @@ function App() {
     <Login/>
     <Flow/>
     <Menu/>
-    <Dynamo/>*/}
+    <Dynamo/>
     <Events/>
     <Styles/>
-    <Refs/>
+    <Refs/>*/}
     </>
   );
 }
