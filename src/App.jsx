@@ -1,3 +1,5 @@
+//KAlkulator postataka izracun postotaka odredenog broja ili povecanja odredenog postotaka
+
 import styles from './App.module.css';
 import Component from './MyComponent';
 import Brojac from './Brojac';
@@ -12,6 +14,7 @@ import Refs from './Refs';
 import Spreads from './Spreads';
 import Pwp from './pwp';
 import Childern from './childern';
+import Stores from './Stores';
 
 {/*Komentar*/}
 
@@ -19,9 +22,11 @@ function App() {
   return (
     <>
     <div class={styles.App}>Dobar dan, svijete!</div>
-    <Childern/>
+    
+    <Stores/>
 
     {/*
+    <Childern/>
     <Spreads/>
     <Pwp/>
     <div>Test</div>
